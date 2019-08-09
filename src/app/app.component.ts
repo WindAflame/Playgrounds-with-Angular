@@ -17,7 +17,8 @@ export class AppComponent implements OnInit {
     this.exampleForm = this.fb.group({
       text1: [''],
       text2: [''],
-      text3: new FormControl({value: '', disabled: true}),
+      text3: [''],
+      text4: ['']
     });
 
    this.exampleForm.get('text1').disable();
