@@ -1,62 +1,41 @@
-.DS_STORE
-
-/dist/
-/bazel-out
-/integration/bazel/bazel-*
+lib-cov
+*.seed
 *.log
-/node_modules/
-
-# Include when developing application packages.
-pubspec.lock
-.c9
-.idea/
-#.devcontainer/*
-!.devcontainer/README.md
-!.devcontainer/recommended-devcontainer.json
-!.devcontainer/recommended-Dockerfile
-.settings/
-.vscode/launch.json
-.vscode/settings.json
-.vscode/tasks.json
-*.swo
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
 *.swp
-modules/.settings
-modules/.vscode
-.vimrc
-.nvimrc
 
-# Don't check in secret files
-*secret.js
+pids
+logs
+results
+tmp
 
-# Ignore npm/yarn debug log
-npm-debug.log
-yarn-error.log
+# Build
+public/css/main.css
 
-# build-analytics
-.build-analytics
+# Coverage reports
+coverage
 
-# rollup-test output
-/modules/rollup-test/dist/
+# API keys and secrets
+.env
 
-# User specific bazel settings
-.bazelrc.user
+# Dependency directory
+node_modules
+bower_components
 
-# User specific ng-dev settings
-.ng-dev.user*
+# Editors
+.idea
+*.iml
 
-.notes.md
-baseline.json
+# OS metadata
+.DS_Store
+Thumbs.db
 
-# Ignore .history for the xyz.local-history VSCode extension
-.history
+# Ignore built ts files
+dist/**/*
 
-# Husky
-.husky/_
-
-
-# Ignore cache created with the Angular CLI.
-.angular/
-
-# Ignore AIO files, useful when changing branches 
-aio/node_modules
-aio/out-tsc
+# ignore yarn.lock
+yarn.lock
