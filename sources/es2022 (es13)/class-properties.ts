@@ -4,7 +4,7 @@
 
 class Bork {
     //Property initializer syntax
-    instanceProperty = "bork";
+    instanceProperty: string = "bork";
     boundFunction = () => {
       return this.instanceProperty;
     };
